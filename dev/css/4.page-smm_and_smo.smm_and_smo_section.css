@@ -1,0 +1,452 @@
+.smm_and_smo_section {
+    padding-top: 95px;
+    padding-bottom: 300px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.smm_and_smo_section .content {
+    width: calc(100% - 30px);
+}
+
+.smm_and_smo_section .main_title {
+    font-size: 30px;
+    color: 031d2c;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 73px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.smm_and_smo_section .title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #031d2c;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.smm_and_smo_section .text {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.smm_and_smo_section b {
+    font-weight: 600;
+}
+
+.smm_and_smo_section p {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+}
+
+.smm_and_smo_section .smm_about {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.smm_and_smo_section .smm_about .title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.smm_and_smo_section .smm_about .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 610px;
+}
+
+.smm_and_smo_section .smm_about .border {
+    padding: 20px 25px;
+    border: 3px solid #031d2c;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.smm_and_smo_section .smm_about .center+.center {
+    margin-bottom: 55px;
+}
+
+.smm_and_smo_section .smm_what_does {
+    margin-top: 60px;
+}
+
+.smm_and_smo_section .smm_what_does p+p {
+    margin-top: 20px;
+}
+
+.smm_and_smo_section .smm_what_does .title {
+    margin-bottom: 25px;
+}
+
+.smm_and_smo_section .smm_what_does .arrow_list {
+    padding: 15px 0 15px 15px;
+}
+
+.smm_and_smo_section .smm_what_does .arrow_list li {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+}
+
+.smm_and_smo_section .smm_what_does li:before {
+    content: ">>";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+}
+
+.smm_and_smo_section .smm_what_does .arrow_list li+li {
+    margin-top: 15px;
+}
+
+.smm_and_smo_section .advantages {
+    margin-top: 50px;
+} 
+
+.smm_and_smo_section .advantages .title {
+    margin-bottom: 25px;
+}
+
+.smm_and_smo_section .advantages ul {
+    padding: 25px 0 25px 15px;
+}
+
+.smm_and_smo_section .advantages ul li {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: relative;
+}
+
+.smm_and_smo_section .advantages ul li+li {
+    margin-top: 15px;
+}
+
+.smm_and_smo_section .block_container1 {
+    padding: 31px 0 22px;
+}
+
+.smm_and_smo_section .block_container1 .block {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.smm_and_smo_section .block_container1 .block_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+.smm_and_smo_section .block_container1 .icon {
+    width: 116px;
+    height: 116px;
+/*    background-image: url("../img/sprite_arrows.png");*/
+    margin: 0 auto 23px;
+}
+.smm_and_smo_section .block_container1 .block .icon {
+    background-image: url(../img/smm/icon_smm_1.png);
+}
+.smm_and_smo_section .block_container1 .block+.block .icon {
+    background-image: url(../img/smm/icon_smm_2.png);
+}
+.smm_and_smo_section .block_container1 .clearfix+.block .icon {
+    background-image: url(../img/smm/icon_smm_3.png);
+}
+.smm_and_smo_section .block_container1 .clearfix+.block+.block .icon {
+    background-image: url(../img/smm/icon_smm_4.png);
+}
+
+.smm_and_smo_section .smm_why_us {
+    margin-top: 60px;
+    background: rgba(3,29,44,.06);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.smm_and_smo_section .smm_why_us .title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.smm_and_smo_section .smm_why_us .block_container {
+    
+}
+
+.smm_and_smo_section .smm_why_us .block_container .block {
+    float: left;
+    width: 100%;
+    padding: 20px 20px 20px 50px; 
+    text-align: left;
+}
+
+.smm_and_smo_section .smm_why_us .block_container .block_content {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.smm_and_smo_section .smm_why_us .block_container .block_content:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    left: -38px;
+    background-image: url(../img/smm/icon_check.png);
+}
+
+.smm_and_smo_section .smm_why_us .block_container .block_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.smm_and_smo_section .smm_why_us .block_container .block_text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.smm_and_smo_section .smm_scope {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.smm_and_smo_section .smm_scope .title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.smm_and_smo_section .smm_scope .block_container {
+    
+}
+
+.smm_and_smo_section .smm_scope .block {
+    width: 100%;
+    padding: 0 15px 15px 15px;
+    position: relative;
+    float: left;
+}
+
+.smm_and_smo_section .smm_scope .block_content {
+    animation: translate_left both 0.5s linear;
+    animation-play-state: paused;
+}
+.smm_and_smo_section .smm_scope .block+.block .block_content {
+    animation: translate_right both 0.5s linear;
+    animation-play-state: paused;
+}
+.smm_and_smo_section .smm_scope .block.animation_play .block_content {
+    animation-play-state: running!important;
+}
+
+.smm_and_smo_section .smm_scope .block_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #031d2c;
+    padding: 15px 60px 15px 15px;
+    position: relative;
+}
+
+.smm_and_smo_section .smm_scope .block_title .num {
+    position: absolute;
+    color: #031d2c;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    border: 3px solid #031d2c;
+    text-align: center;
+    padding: 4px 0;
+    width: 51px;
+}
+
+.smm_and_smo_section .smm_scope ul {
+    padding: 15px 0;
+    border-right: 1px solid #031d2c;
+    border-left: 1px solid #031d2c;
+    border-bottom: 1px solid #031d2c;
+}
+
+.smm_and_smo_section .smm_scope ul li {
+    font-size: 15px;
+    color: #031d2c;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: relative;
+    padding: 3px 10px 3px 35px;
+}
+
+.smm_and_smo_section .smm_scope ul li:before {
+    content: "•";
+    position: absolute;
+    left: 20px;
+    display: inline-block;
+    color: #031d2c;
+    font-size: 30px;
+    margin-top: -9px;
+}
+
+.smm_and_smo_section .smm_scope .text {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #031d2c;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    position: relative;
+}
+
+.smm_and_smo_section .smm_contact_text {
+    margin-top: 50px;
+}
+
+.smm_and_smo_section .smm_contact_text p {
+    text-align: center;
+    font-size: 18px;
+    color: #031d2c;
+}
+
+@media screen and (min-width: 992px) {
+    
+    .smm_and_smo_section .smm_scope .block {
+        width: 50%;
+        padding: 0 45px 15px 15px;
+        position: relative;
+        float: left;
+    }
+    .smm_and_smo_section .smm_scope .block+.block {
+        margin-top: 85px;
+        padding: 0 15px 15px 45px;
+    }
+    .smm_and_smo_section .smm_scope .block:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 100%;
+        border: 2px solid #031d2c;
+        top: 0;
+        right: -2px;
+    }
+    .smm_and_smo_section .smm_scope .block+.block:before {
+        right: auto;
+        left: -2px;
+    }
+    .smm_and_smo_section .smm_scope .clearfix:nth-of-type(6)+.block:before {
+        height: 110px;
+    }
+    .smm_and_smo_section .smm_scope .block:last-child:before {
+        display: none;
+    }
+    
+    .smm_and_smo_section .smm_scope .block_title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 15px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        background: #031d2c;
+        padding: 15px 60px 15px 15px;
+        position: relative;
+        width: calc(100% + 45px);
+    }
+    .smm_and_smo_section .smm_scope .block+.block .block_title {
+        right: 45px;
+        padding: 15px 15px 15px 60px;
+    }
+    
+    .smm_and_smo_section .smm_scope .block_title .num {
+        position: absolute;
+        color: #031d2c;
+        font-weight: 700;
+        font-size: 30px;
+        display: block;
+        border-radius: 50%;
+        background: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -25.5px;
+        border: 3px solid #031d2c;
+        text-align: center;
+        padding: 4px 0;
+        width: 51px;
+    }
+    .smm_and_smo_section .smm_scope .block+.block .block_title .num {
+        left: -25.5px;
+        right: auto;
+    }
+    
+    .smm_and_smo_section .smm_scope ul {
+        padding: 15px 0;
+        border-right: 1px solid #031d2c;
+        border-left: 1px solid #031d2c;
+        border-bottom: 1px solid #031d2c;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+    .smm_and_smo_section .block_container1 .block {
+        width: 50%;
+    }
+    
+    .smm_and_smo_section .smm_why_us .block_container {
+        padding: 0 35px;
+    }
+    
+    .smm_and_smo_section .smm_why_us .block_container .block {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    
+    .smm_and_smo_section .content {
+        width: calc(100% - 125px);
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    .smm_and_smo_section .block_container1 .block {
+        width: 25%;
+    }
+    
+}

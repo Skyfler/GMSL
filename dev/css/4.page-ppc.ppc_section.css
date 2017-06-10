@@ -1,0 +1,625 @@
+.ppc_section {
+    padding-top: 95px;
+    padding-bottom: 300px;
+    background: #fff;
+}
+
+.ppc_section .content {
+    width: calc(100% - 30px);
+}
+
+.ppc_section .main_title {
+    font-size: 30px;
+    color: 031d2c;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 73px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ppc_section .text {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ppc_section .title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #031d2c;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.ppc_section b {
+    font-weight: 600;
+}
+
+.ppc_section .block_container1 {
+    padding: 20px 0;
+}
+
+.ppc_section .block_container1 .block {
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.ppc_section .block_container1 img {
+    margin: 0 auto;
+}
+
+.ppc_section .block_container1 .block_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #031d2c;
+}
+
+.ppc_section .context_ads_is {
+    padding: 20px 25px;
+    border: 3px solid #031d2c;
+    border-radius: 10px;
+}
+
+.ppc_section .context_ads_types {
+    margin-top: 60px;
+}
+.ppc_section .context_ads_types .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .arrow_list li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.ppc_section .arrow_list li+li {
+    margin-top: 15px;
+}
+
+.ppc_section .arrow_list li:before {
+    content: ">>";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+}
+
+.ppc_section .context_ads_goals {
+    margin-top: 60px;
+}
+
+.ppc_section .context_ads_goals .title {
+    
+}
+
+.ppc_section .context_ads_goals .block_container2 {
+    padding: 31px 0 0;
+}
+
+.ppc_section .context_ads_goals .block_container2 .block {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.ppc_section .block_container2 .block_title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #031d2c;
+    font-weight: 600;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+.ppc_section .context_ads_goals .block_container2 .block_icon {
+    width: 31px;
+    height: 22px;
+    background-image: url("../img/sprite_arrows.png");
+    background-position: 0 0;
+    margin: 23px auto;
+}
+
+.ppc_section .context_ads_goals .block_container2 .block_text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+.ppc_section .context_ads_advantages {
+    margin-top: 60px;
+}
+
+.ppc_section .context_ads_advantages .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_advantages .list li {
+    padding-left: 65px;
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+.ppc_section .context_ads_advantages .list li+li {
+    margin-top: 35px;
+}
+
+.ppc_section .context_ads_advantages .list li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    top: 0;
+    left: 0;
+    background-image: url("../img/ppc/sprite_ppc.png");
+}
+.ppc_section .context_ads_advantages .list li.reduced_cost:before {
+    background-position: 0px 0px;
+}
+.ppc_section .context_ads_advantages .list li.effective_company:before {
+    background-position: -54px 0px;
+}
+.ppc_section .context_ads_advantages .list li.attractive_conditions:before {
+    background-position: -108px -0px;
+}
+.ppc_section .context_ads_advantages .list li.unlimited_querys:before {
+    background-position: -162px 0px;
+}
+.ppc_section .context_ads_advantages .list li.controll_system:before {
+    background-position: -216px 0px;
+}
+.ppc_section .context_ads_advantages .list li.site_evaluation:before {
+    background-position: -270px 0px;
+}
+
+.ppc_section .context_ads_advantages .list li .title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.ppc_section .context_ads_description {
+    margin-top: 60px;
+}
+
+.ppc_section .context_ads_description .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_description .list {
+    background: rgba(3, 29, 44, 0.06);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.ppc_section .context_ads_description .list>li {
+    padding: 20px 20px 20px;
+}
+
+.ppc_section .context_ads_description .list>li .title {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.ppc_section .context_ads_description .check_list li {
+    padding-left: 50px;
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+.ppc_section .context_ads_description .check_list li:before {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 2px;
+    display: inline-block;
+    width: 17px;
+    height: 9px;
+    border-bottom: 2px solid #031d2c;
+    border-left: 2px solid #031d2c;
+    transform: rotate(-55deg) skew(-208deg, 4deg);
+}
+
+.ppc_section .context_ads_description .check_list li+li {
+    margin-top: 10px;
+}
+
+.ppc_section .context_ads_controll {
+    margin-top: 60px;
+}
+
+.ppc_section .context_ads_controll .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_controll ul {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+.ppc_section .context_ads_terms {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ppc_section .context_ads_terms .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_terms ul {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+.ppc_section .context_ads_composition {
+    padding: 20px;
+    border: 10px solid #031d2c;
+    border-radius: 10px;
+}
+
+.ppc_section .context_ads_composition .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_composition ul {
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+.ppc_section .context_ads_composition ul li {
+/*    padding-left: 50px;*/
+}
+
+.ppc_section .context_ads_composition ul li+li {
+    margin-top: 35px;
+}
+
+.ppc_section .context_ads_composition ul li:before {
+    content: "";
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    vertical-align: middle;
+    background-image: url("../img/ppc/sprite_ppc.png");
+}
+.ppc_section .context_ads_composition ul li.site_exploration:before {
+    background-position: 0px -54px;
+}
+.ppc_section .context_ads_composition ul li.agreement:before {
+    background-position: -45px -54px;
+}
+.ppc_section .context_ads_composition ul li.analysys:before {
+    background-position: -90px -54px;
+}
+.ppc_section .context_ads_composition ul li.keywords:before {
+    background-position: -135px -54px;
+}
+.ppc_section .context_ads_composition ul li.mediaplan:before {
+    background-position: -180px -54px;
+}
+.ppc_section .context_ads_composition ul li.advertisments:before {
+    background-position: -225px -54px;
+}
+.ppc_section .context_ads_composition ul li.accounts:before {
+    background-position: -270px -54px;
+}
+.ppc_section .context_ads_composition ul li.testing:before {
+    background-position: -315px -54px;
+}
+.ppc_section .context_ads_composition ul li.budget:before {
+    background-position: -360px -54px;
+}
+.ppc_section .context_ads_composition ul li.reports:before {
+    background-position: -405px -54px;
+}
+.ppc_section .context_ads_composition ul li.efficiency:before {
+    background-position: -450px -54px;
+}
+.ppc_section .context_ads_composition ul li.correction:before {
+    background-position: -496px -54px;
+}
+
+.ppc_section .context_ads_composition ul li span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    max-width: calc(100% - 45px);
+}
+
+.ppc_section .context_ads_composition .text {
+    margin-top: 40px;
+}
+
+.ppc_section .context_ads_work_cycle {
+    margin-top: 60px;
+    display: none;
+}
+
+.ppc_section .context_ads_work_cycle .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_work_cycle .schema {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.ppc_section .context_ads_work_cycle .schema .schema_block {
+    float: left;
+    border: 2px solid #031d2c;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ppc_section .context_ads_work_cycle .schema .schema_block+.schema_block {
+    margin-top: 50px;
+}
+
+.ppc_section .context_ads_work_cycle .schema .schema_block .title {
+    padding: 10px;
+    color: #fff;
+    background: #031d2c;
+    margin-bottom: 0;
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ppc_section .context_ads_work_cycle .schema .schema_block .text {
+    padding: 10px 10px 20px;
+    text-align: center;
+}
+
+.ppc_section .context_ads_work_cycle .schema .schema_block .icon {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: -20px;
+    right: -5px;
+    background-color: #fff;
+/*    border: 2px solid #031d2c;*/
+    box-shadow: 0 0 0 2px #031d2c;
+    border-radius: 50%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .schema_block .icon:before {
+    content: "";
+    width: 32px;
+    height: 26px;
+    background-image: url(../img/ppc/sprite_ppc.png);
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+}
+
+.ppc_section .context_ads_work_cycle .schema .formulation {
+    width: 100%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .formulation:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    background-image: url("../img/sprite_arrows.png");
+    background-position: 0 0;
+    bottom: -37px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.ppc_section .context_ads_work_cycle .schema .formulation .icon:before {
+    background-position: -432px 0;
+}
+
+.ppc_section .context_ads_work_cycle .schema .creation {
+    width: 100%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .creation:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    background-image: url("../img/sprite_arrows.png");
+    background-position: 0 0;
+    bottom: -37px;
+    left: 22.5%;
+    transform: translateX(-50%);
+}
+
+.ppc_section .context_ads_work_cycle .schema .creation:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    background-image: url("../img/sprite_arrows.png");
+    background-position: 0 0;
+    bottom: -37px;
+    left: 77.5%;
+    transform: translateX(-50%);
+}
+
+.ppc_section .context_ads_work_cycle .schema .creation .icon:before {
+    background-position: -432px -26px;
+}
+
+.ppc_section .context_ads_work_cycle .schema .managing {
+    width: 45%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .managing .title span {
+    display: inline-block;
+    width: 100%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .managing:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    background-image: url("../img/sprite_arrows.png");
+    background-position: 0 0;
+    top: 50%;
+    right: -35px;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.ppc_section .context_ads_work_cycle .schema .managing .icon:before {
+    background-position: -464px -26px;
+}
+
+.ppc_section .context_ads_work_cycle .schema .analisys {
+    width: 45%;
+    margin-left: 10%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .analisys .title span {
+    display: inline-block;
+    width: 100%;
+}
+
+.ppc_section .context_ads_work_cycle .schema .analisys:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    background-image: url("../img/sprite_arrows.png");
+    background-position: 0 0;
+    top: 50%;
+    left: -35px;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.ppc_section .context_ads_work_cycle .schema .analisys .icon:before {
+    background-position: -464px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .ppc_section .context_ads_work_cycle {
+        display: block;
+    }
+    
+}
+
+.ppc_section .context_ads_work_maximum_result {
+    margin-top: 60px;
+}
+
+.ppc_section .context_ads_work_maximum_result .title {
+    margin-bottom: 35px;
+}
+
+.ppc_section .context_ads_work_maximum_result .number_list {
+    counter-reset: myCounter;
+    font-size: 16px;
+    color: #031d2c;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.ppc_section .context_ads_work_maximum_result .number_list li {
+    
+}
+
+.ppc_section .context_ads_work_maximum_result .number_list li+li {
+    margin-top: 35px;
+}
+
+.ppc_section .context_ads_work_maximum_result .number_list li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: inline-block;
+    color: #fff;
+    background: #031d2c;
+    border-radius: 50%;
+    font-weight: 600;
+    padding: 5px 0;
+    width: 29px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ppc_section .context_ads_work_maximum_result .number_list li span {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: calc(100% - 30px);
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .ppc_section .block_container1 {
+        padding: 20px 20px;
+    }
+    
+    .ppc_section .block_container1 .block {
+        width: 33.33333333%;
+    }
+    
+    .ppc_section .context_ads_goals .block_container2 .block {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    
+    .ppc_section .content {
+        width: calc(100% - 125px);
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    .ppc_section .block_container1 {
+        padding: 20px 70px;
+    }
+    
+    .ppc_section .context_ads_goals .block_container2 .block {
+        width: 25%;
+    }
+    
+}

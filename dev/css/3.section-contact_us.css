@@ -1,0 +1,147 @@
+.contact_us {
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.contact_us .skew {
+    background: #fff;
+    display: none;
+}
+html.pageSliderActive .contact_us .skew {
+    display: block;
+}
+
+.contact_us .content {
+    overflow-x: hidden;
+    padding-top: 55px;
+}
+html.pageSliderActive .contact_us .content {
+    padding-top: 0;
+    overflow-x: visible;
+}
+
+.contact_us .content .bg_layer {
+    background: url("../img/bg_dots.png") top center repeat-x;
+    height: 112px;
+    transform: rotate(3deg);
+    margin-bottom: 70px;
+    width: 110%;
+    position: relative;
+    left: -5%;
+}
+html.pageSliderActive .contact_us .content .bg_layer {
+    margin-bottom: 20px;
+}
+
+.contact_us .block_main_title {
+    color: #031d2c;
+}
+
+.contact_us .block_main_title .text_sm:after {
+    border-color: #031d2c;
+}
+
+.contact_us .info_block {
+    margin-top: 60px;
+}
+
+.contact_us .contacts {
+/*    float: left;*/
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    color: #031d2c;
+    display: inline-block;
+/*    vertical-align: middle;*/
+}
+
+.contact_us .contacts .email {
+    margin-top: 17px;
+}
+
+.contact_us .contacts .title {
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 95px;
+    float: left;
+}
+
+.contact_us .contacts .text {
+    float: left;
+}
+
+.contact_us .contacts .text span {
+    display: block;
+}
+
+.contact_us .socmenu {
+/*    float: right;*/
+    display: inline-block;
+/*    vertical-align: middle;*/
+    list-style: none;
+    margin-top: 40px;
+}
+
+.contact_us .socmenu li {
+    float: left;
+}
+.contact_us .socmenu li+li {
+    margin-left: 20px;
+}
+
+.contact_us .socmenu .clearfix {
+    margin-bottom: 15px;
+}
+
+.contact_us .socmenu li a {
+    display: block;
+    border-radius: 50%;
+    background: #062230;
+    color: #fff;
+    font-size: 25px;
+    width: 42px;
+    padding: 6px 0;
+    transition: color ease 0.5s;
+}
+
+.contact_us .socmenu li a:hover {
+    color: #fc3b62;
+}
+
+@media screen and (min-width: 465px) {
+
+    .contact_us .socmenu .clearfix+li {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (min-width: 520px) {
+    
+    .contact_us .contacts .text span {
+        display: inline-block;
+    }
+    .contact_us .contacts .text span+span {
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1040px) {
+    
+    .contact_us .info_block {
+        padding: 0 55px;
+    }
+    
+    .contact_us .contacts {
+        float: left;
+        display: block;
+    }
+    
+    .contact_us .socmenu {
+        float: right;
+        display: block;
+        margin-top: 7px;
+    }
+    
+}

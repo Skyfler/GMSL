@@ -1,0 +1,200 @@
+.main_slider_block {
+    background: #fff;
+    display: none;
+    margin-bottom: 0;
+}
+
+.main_slider_block .slider {
+    height: 100%;
+}
+
+.main_slider_block .overflow_hidden_container {
+    height: 100%;
+}
+
+.main_slider_block .overflow_block {
+    height: 100%;
+}
+
+.main_slider_block .slider_slide {
+    height: 100%;
+    background: #031d2c;
+}
+
+.main_slider_block .slider_controlls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.main_slider_block .arrow {
+    display: block;
+    width: 40px;
+    height: 57px;
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 
+        background-color ease 0.5s,
+        box-shadow ease 0.5s;
+        backface-visibility: hidden;
+    filter: blur(0px);
+    -webkit-font-smoothing: antialiased;
+    transform-style: preserve-3d;
+}
+.main_slider_block .arrow:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+}
+.main_slider_block .arrow.right_arrow {
+    right: 0px;
+    border-radius: 5px 0 0 5px;
+}
+.main_slider_block .arrow.left_arrow {
+    left: 0px;
+    border-radius: 0 5px 5px 0;
+}
+
+.main_slider_block .arrow:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 21px;
+    width: 19px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../img/sprite_arrows.png");
+}
+.main_slider_block .arrow.right_arrow:before {
+    background-position: -19px -22px;
+}
+.main_slider_block .arrow.left_arrow:before {
+    background-position: 0px -22px;
+}
+
+.main_slider_block .slider_slide .container {
+    height: 100%;
+}
+
+.main_slider_block .slider_slide .container {
+    background-repeat: no-repeat;
+    background-position: calc(100% - 30px) bottom;
+    background-size: auto 100%;
+}
+.main_slider_block .slider_slide.smm .container {
+    background-image: url(../img/main_slider/smm.png);
+}
+.main_slider_block .slider_slide.ppc .container {
+    background-image: url(../img/main_slider/ppc.png);
+}
+.main_slider_block .slider_slide.seo .container {
+    background-image: url(../img/main_slider/seo.png);
+}
+.main_slider_block .slider_slide.web_dev .container {
+    background-image: url(../img/main_slider/web.png);
+}
+.main_slider_block .slider_slide.polygraphy .container {
+    background-image: url(../img/main_slider/polygraphy.png);
+}
+
+.main_slider_block .slider_slide .slide_content {
+    transform: translateY(-50%);
+    top: 50%;
+    text-align: left;
+    position: absolute;
+}
+
+.main_slider_block .slider_slide .block_main_title {
+    color: #fff;
+    float: none;
+}
+
+.main_slider_block .slider_slide .block_main_title b {
+    color: #fc3b62;
+}
+
+.main_slider_block .slider_slide .text {
+    margin-top: 28px;
+}
+
+.main_slider_block .slider_slide p {
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main_slider_block .slider_slide p+p {
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: none;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 13px;
+}
+
+.main_slider_block .slider_slide .details {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color: #fc3b62;
+    padding: 8px 0;
+    width: 100%;
+    display: block;
+    max-width: 150px;
+    vertical-align: middle;
+    background: 0 0;
+/*    border: 3px solid #fc3b62;*/
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 27px;
+}
+
+/*.main_slider_block .slider_slide img {
+    max-height: 100%;
+    max-width: 60%;
+    right: 30px;
+    bottom: 0;
+    position: absolute;
+}*/
+
+.main_slider_block .mouse_scroll_icon {
+    position: absolute;
+    width: 20px;
+    height: 56px;
+    background: url("../img/icon_mouse_scroll.png");
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .main_slider_block .block_main_title .text_lg {
+        font-size: 52px;
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    
+    .main_slider_block {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    /*.main_slider_block .slider_slide img {
+        right: 65px;
+    }*/
+    
+}

@@ -1,0 +1,129 @@
+.animated_button {
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+.animated_button .border {
+    position: absolute;
+    display: block;
+}
+.animated_button .border.border_top,
+.animated_button .border.border_bottom {
+    height: 4px!important;
+    width: 100%;
+}
+.animated_button .border.border_left,
+.animated_button .border.border_right {
+    height: 100%;
+    width: 4px!important;
+}
+.animated_button .border.border_top {
+    top: -1px;
+    left: 0;
+    transform: rotate(180deg);
+}
+.animated_button .border.border_bottom {
+    bottom: -1px;
+    left: 0;
+}
+.animated_button .border.border_left {
+    top: 0;
+    left: -1px;
+}
+.animated_button .border.border_right {
+    top: 0;
+    right: -1px;
+    transform: rotate(180deg);
+}
+
+.animated_button .border .bg {
+    display: block;
+    position: absolute;
+    animation-duration: 6s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    height: 100%;
+    width: 100%;
+    animation-play-state: paused;
+}
+.animated_button .border.border_top .bg,
+.animated_button .border.border_bottom .bg {
+    animation-name: button_border_bg_loop_horizontal;
+}
+.animated_button .border.border_left .bg,
+.animated_button .border.border_right .bg {
+    animation-name: button_border_bg_loop_vertical;
+}
+.animated_button:hover .border .bg {
+    animation-play-state: running!important;
+}
+.animated_button .border.border_top .bg,
+.animated_button .border.border_top .bg:before {
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,
+        #fc3b62 0, #fc3b62 22.5%, transparent 22.5%, transparent 24%,
+        #fc3b62 24%, #fc3b62 25%, transparent 25%, transparent 27%,
+        #fc3b62 27%, #fc3b62 28.5%, transparent 28.5%, transparent 31%,
+        #fc3b62 31%, #fc3b62 36%, transparent 36%, transparent 39%,
+        #fc3b62 39%, #fc3b62 45%, transparent 45%, transparent 48%,
+        #fc3b62 48%, #fc3b62 100%);
+}
+.animated_button .border.border_bottom .bg,
+.animated_button .border.border_bottom .bg:before {
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right,
+        #fc3b62 0, #fc3b62 22.5%, transparent 22.5%, transparent 24%,
+        #fc3b62 24%, #fc3b62 25%, transparent 25%, transparent 27%,
+        #fc3b62 27%, #fc3b62 28.5%, transparent 28.5%, transparent 31%,
+        #fc3b62 31%, #fc3b62 36%, transparent 36%, transparent 39%,
+        #fc3b62 39%, #fc3b62 45%, transparent 45%, transparent 48%,
+        #fc3b62 48%, #fc3b62 100%);
+}
+.animated_button .border.border_left .bg,
+.animated_button .border.border_left .bg:before {
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom,
+        #fc3b62 0, #fc3b62 22.5%, transparent 22.5%, transparent 24%,
+        #fc3b62 24%, #fc3b62 25%, transparent 25%, transparent 27%,
+        #fc3b62 27%, #fc3b62 28.5%, transparent 28.5%, transparent 31%,
+        #fc3b62 31%, #fc3b62 36%, transparent 36%, transparent 39%,
+        #fc3b62 39%, #fc3b62 45%, transparent 45%, transparent 48%,
+        #fc3b62 48%, #fc3b62 100%);
+}
+.animated_button .border.border_right .bg,
+.animated_button .border.border_right .bg:before {
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom,
+        #fc3b62 0, #fc3b62 22.5%, transparent 22.5%, transparent 24%,
+        #fc3b62 24%, #fc3b62 25%, transparent 25%, transparent 27%,
+        #fc3b62 27%, #fc3b62 28.5%, transparent 28.5%, transparent 31%,
+        #fc3b62 31%, #fc3b62 36%, transparent 36%, transparent 39%,
+        #fc3b62 39%, #fc3b62 45%, transparent 45%, transparent 48%,
+        #fc3b62 48%, #fc3b62 100%);
+}
+
+.animated_button .border .bg:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.animated_button .border.border_top .bg:before,
+.animated_button .border.border_bottom .bg:before {
+    top: 0;
+    left: 100%;
+}
+.animated_button .border.border_left .bg:before,
+.animated_button .border.border_right .bg:before {
+    top: 100%;
+    left: 0;
+}

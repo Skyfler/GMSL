@@ -1,0 +1,239 @@
+.application {
+    background: #fff;
+}
+
+.application .skew {
+    background: #031d2c;
+}
+
+.application .skew .unskew {
+    background: url("../img/bg_application_transparent.png");
+    background-size: auto 100%;
+}
+
+.application .block_main_title {
+    color: #fff;
+}
+
+.application form {
+    padding: 0 20px;
+    max-width: 740px;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+.application .waiting_block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: url(../img/spinner.gif) center center no-repeat;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.application .waiting_for_response .waiting_block {
+    display: block;
+}
+
+.application form .input_group {
+    width: 100%;
+    padding: 0 20px;
+    float: left;
+    margin-bottom: 30px;
+}
+.application form .input_group:last-child {
+    margin-bottom: 0;
+}
+.application form .input_group.col_2_width_md {
+    position: relative;
+    z-index: 1;
+}
+
+.application input[type="text"],
+.application input[type="email"],
+.application textarea {
+    width: 100%;
+    resize: none;
+    font-size: 14px;
+    font-weight: 300;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 19px 0;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden;
+}
+
+.application textarea {
+    height: 57px;
+}
+
+.application input::-webkit-input-placeholder  {opacity: 1; font-weight: 300;}
+.application input::-moz-placeholder {opacity: 1; font-weight: 300;}
+.application input:-moz-placeholder {opacity: 1; font-weight: 300;}
+.application input:-ms-input-placeholder {opacity: 1; font-weight: 300;}
+.application textarea::-webkit-input-placeholder {opacity: 1; font-weight: 300;}
+.application textarea::-moz-placeholder {opacity: 1; font-weight: 300;}
+.application textarea:-moz-placeholder {opacity: 1; font-weight: 300;}
+.application textarea:-ms-input-placeholder {opacity: 1; font-weight: 300;}
+
+.application .checkbox_group_dropdown {
+    position: relative;
+}
+
+.application .checkbox_group_dropdown [data-component="dropdown_toggle"] {
+    width: 100%;
+    resize: none;
+    font-size: 14px;
+    font-weight: 300;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 19px 0;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.application .checkbox_group_dropdown [data-component="dropdown_toggle"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    top: 27px;
+    right: 14px;
+}
+
+.application .checkbox_group_dropdown .dropdown_container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #031d2c;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.application .checkbox_group_dropdown .dropdown_bar {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.application .checkbox_group_dropdown input[type="checkbox"]:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+
+.application .checkbox_group_dropdown label {
+    padding: 5px 15px 5px 45px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    transition: 
+        background ease 0.5s,
+        color ease 0.5s;
+}
+.application .checkbox_group_dropdown li:hover label {
+    background: #fff;
+    color: #031d2c;
+}
+
+.application .checkbox_group_dropdown input[type="checkbox"]+label:before {
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 7px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+	transition: border-color 0.5s ease;
+}
+.application .checkbox_group_dropdown li:hover input[type="checkbox"]+label:before {
+    border-color: #031d2c;
+}
+
+.application .checkbox_group_dropdown input[type="checkbox"]+label:after {
+	content: "";
+	position: absolute;
+    left: 18px;
+    top: 11px;
+    display: block;
+    width: 14px;
+    height: 7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+	transform: rotate(-45deg);
+	opacity: 0;
+    transition: 
+        opacity ease 0.5s,
+        border-color 0.5s ease;
+}
+.application .checkbox_group_dropdown input[type="checkbox"]:checked+label:after {
+	opacity: 1;
+}
+.application .checkbox_group_dropdown li:hover input[type="checkbox"]+label:after {
+    border-color: #031d2c;
+}
+
+.application .submit {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: #fc3b62;
+    padding: 8px 0;
+    width: 100%;
+    max-width: 150px;
+    vertical-align: middle;
+    float: right;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .application form .input_group {
+        width: 50%;
+    }
+    .application form .input_group.full_width_sm {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    .application form .input_group {
+        width: 33.3333333%;
+    }
+    
+    .application form .input_group.col_2_width_md {
+        width: 66.6666666%;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .application .skew .unskew {
+        background-size: 100%;
+    }
+    
+}

@@ -1,0 +1,136 @@
+.partners {
+    background: #fff;
+    display: none;
+}
+
+.partners .skew {
+    background: #031d2c;
+}
+
+.partners .skew .unskew {
+    background: url("../img/bg_transparent.png");
+    background-size: auto 100%;
+}
+
+.partners .block_main_title {
+    color: #fff;
+}
+
+.partners .masonry-tabs {
+    float: left;
+    width: 100%;
+    margin-top: 92px;
+}
+
+.partners .tab_panel {
+    /*background: rgba(0, 255, 0, 0.1);*/
+    height: 67px;
+    width: 100%;
+    text-align: center;
+}
+
+.partners .tab {
+    display: inline-block;
+    padding: 10px 11px 6px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+/*    text-transform: uppercase;*/
+}
+
+.partners .tab span {
+    height: auto;
+    position: relative;
+    padding: 0 4px 4px;
+}
+
+.partners .tab span:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    display: block;
+/*    background: linear-gradient(to right, #19afcf 0%, #644d84 25%, #fc3b62 50%, #644d84 75%, #19afcf 100%);*/
+    background-color: #19afcf;
+/*    background-size: 200%;*/
+    animation-name: background_color_loop;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+/*    display: none;*/
+    transition: opacity ease 0.5s;
+    opacity: 0;
+}
+
+.partners .tab:hover span:after,
+.partners .tab.active span:after{
+/*    color: #72b22b;*/
+    /*background: rgba(39, 145, 242, 0.39);*/
+/*    display: block;*/
+    opacity: 1;
+}
+
+.partners .masonry-items-container {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    transition: height ease 0.5s;
+}
+
+.partners .grid-item {
+    /*width: 277px;*/
+/*    width: 25%;*/
+/*    border: 1px solid lightgray;*/
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.partners .grid-item.height-x-1 {
+    height: 105px;
+}
+
+.partners .grid-item.height-x-2 {
+    height: 225px;
+}
+
+.partners .grid-item.width-x-1 {
+    width: 105px;
+}
+
+.partners .grid-item.width-x-2 {
+    width: 225px;
+}
+
+.partners .grid-item img {
+    transform: translateZ(0px);
+}
+
+/*.partners .grid-item img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    max-height: 100%;
+}*/
+
+@media screen and (min-width: 768px) {
+
+    .partners {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    
+    .partners .skew .unskew {
+        background-size: 100%;
+    }
+    
+}
+

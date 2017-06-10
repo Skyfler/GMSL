@@ -1,0 +1,73 @@
+html.pageSliderActive {
+    overflow: hidden;
+}
+
+.page-slide {
+    margin-bottom: 230px;
+    position: relative;
+    width: 100%;
+}
+html.pageSliderActive .page-slide {
+    height: 100%;
+    transition: margin 1.5s ease;
+    margin-bottom: 300px;
+    z-index: 1;
+    display: table;
+}
+
+.page-slide .skew {
+    height: calc(100% + 300px);
+    transform: translateY(-50%) skewY(3deg);
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+html.pageSliderActive .page-slide .skew {
+    height: 125%;
+}
+
+.page-slide .skew .unskew {
+    top: 50%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    transform: skewY(-3deg) translateY(-50%);
+}
+
+.page-slide .content {
+    position: relative;
+}
+html.pageSliderActive .page-slide .content {
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+    width: 100%;
+    padding-top: 92px;
+    backface-visibility: hidden;
+    filter: blur(0px);
+    -webkit-font-smoothing: antialiased;
+/*    transform-style: preserve-3d;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+
+html.pageSliderActive body:not([data-active-slide="slide_1"]) .page-slide_1,
+html.pageSliderActive body[data-active-slide="slide_3"] .page-slide_2,
+html.pageSliderActive body[data-active-slide="slide_4"] .page-slide_2,
+html.pageSliderActive body[data-active-slide="slide_4"] .page-slide_3,
+html.pageSliderActive body[data-active-slide="slide_5"] .page-slide_2,
+html.pageSliderActive body[data-active-slide="slide_5"] .page-slide_3,
+html.pageSliderActive body[data-active-slide="slide_5"] .page-slide_4,
+html.pageSliderActive body[data-active-slide="slide_6"] .page-slide_2,
+html.pageSliderActive body[data-active-slide="slide_6"] .page-slide_3,
+html.pageSliderActive body[data-active-slide="slide_6"] .page-slide_4,
+html.pageSliderActive body[data-active-slide="slide_6"] .page-slide_5,
+html.pageSliderActive body[data-active-slide="slide_7"] .page-slide_2,
+html.pageSliderActive body[data-active-slide="slide_7"] .page-slide_3,
+html.pageSliderActive body[data-active-slide="slide_7"] .page-slide_4,
+html.pageSliderActive body[data-active-slide="slide_7"] .page-slide_5,
+html.pageSliderActive body[data-active-slide="slide_7"] .page-slide_6 {
+    margin-bottom: 0;
+}

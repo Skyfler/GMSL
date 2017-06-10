@@ -1,0 +1,128 @@
+.about_us {
+    background: #fff;
+    margin-bottom: 95px;
+}
+
+.about_us .skew {
+    background: #fff;
+}
+
+.about_us .block_main_title {
+    color: #031d2c;
+}
+
+.about_us .block_main_title .text_sm:after {
+    border-color: #031d2c;
+}
+
+.about_us .text_block {
+    margin-top: 30px;
+}
+
+.about_us .text_block .title {
+    font-weight: 900;
+    font-size: 16px;
+    color: #031d2c;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.about_us .text_block .text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #031d2c;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.about_us .block_container {
+   margin-top: 30px; 
+}
+
+.about_us .block_container .block {
+    float: left;
+    width: 100%;
+}
+.about_us .block_container .block+.block {
+    margin-top: 30px;
+}
+
+.about_us .block_container .block_content {
+    max-width: 258px;
+    margin: 0 auto;
+}
+
+.about_us .block_container .block_content img {
+    position: relative;
+    top: 0;
+    transition: top ease 1s;
+}
+.about_us .block_container .block_content:hover img {
+    top: 130px;
+}
+
+.about_us .block_container .description {
+    background: #031e2d;
+    padding: 20px 20px 0;
+    height: 130px;
+    position: relative;
+    top: 0;
+    transition: top ease 1s;
+}
+.about_us .block_container .block_content:hover .description {
+    top: -249px;
+}
+
+.about_us .block_container .name {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.about_us .block_container .position {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 6px;
+    text-align: left;
+}
+
+.about_us .block_container .contacts {
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 1s;
+}
+.about_us .block_container .block_content:hover .contacts {
+    opacity: 1;
+    visibility: visible;
+}
+
+.about_us .block_container .contacts li {
+    float: left;
+    overflow: hidden;
+}
+.about_us .block_container .contacts li+li {
+    margin-left: 10px;
+}
+
+.about_us .block_container .contacts li a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    width: 25px;
+}
+
+@media screen and (min-width: 992px) {
+    
+    .about_us .block_container .block {
+        width: 33.333333%;
+    }
+    .about_us .block_container .block+.block {
+        margin-top: 0;
+    }
+    
+}
